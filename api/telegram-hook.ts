@@ -52,6 +52,10 @@ bot.command("test", async (ctx) => {
   await handleTestCommand(ctx)
 })
 
+bot.command("tolol", async (ctx) => {
+  await ctx.reply("kamu tolol"); 
+})
+
 bot.on("message", async (ctx) => {
   await handleOnMessage(ctx)
 })
